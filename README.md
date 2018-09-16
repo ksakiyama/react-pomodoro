@@ -9,7 +9,7 @@ It is a simple timer for [Pomodoro technique](https://en.wikipedia.org/wiki/Pomo
 It's build on top of [create-react-app](https://github.com/facebook/create-react-app).
 
 ## Demo
-[demo]()
+[Link](https://react-pomodoro-1ba96.firebaseapp.com/)
 
 ## Local development
 ### npm
