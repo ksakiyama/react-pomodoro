@@ -1,0 +1,29 @@
+@import '~sanitize.css';
+
+body {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.header h1 {
+  margin-top: 0px;
+}
+
+.main h1 {
+  font-size: 400%;
+  margin-top: 0px;
+  margin-left: 70px;
+  margin-bottom: 0px;
+}
+
+.main label {
+  margin: 15px;
+  font-size: 120%;
+}
+
+.main button {
+  margin: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 120%;
+}
