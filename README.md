@@ -20,7 +20,7 @@ It's build on top of [create-react-app](https://github.com/facebook/create-react
 
 ## Dependency
 ### [Trashy.css](https://t7.github.io/trashy.css/)
-I think that `Trashy.css` is a very simple and great CSS library.
+I think that `Trashy.css` is a very interesting CSS library.
 
 ### [sanitize.css](https://csstools.github.io/sanitize.css/)
 `Trashy.css` needs `sanitize.css`.
