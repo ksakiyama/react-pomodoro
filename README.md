@@ -2,7 +2,9 @@
 
 It is a simple timer for [Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique).
 
-<img src="sample.png" width="600" style="box-shadow: 0px 5px 15px -5px rgba(0, 0, 0, 0.8)">
+<kbd>
+<img src="sample.png" width="600">
+</kbd>
 
 It's build on top of [create-react-app](https://github.com/facebook/create-react-app).
 
