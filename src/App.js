@@ -33,7 +33,7 @@ class App extends React.Component {
 
   handleChange(radioButtonName) {
     this.setState(
-      controllTimerTipe(this.state, radioButtonName, this.countDown)
+      controllTimerType(this.state, radioButtonName, this.countDown)
     );
   }
 
@@ -125,7 +125,7 @@ const controllOperation = (obj, buttonName, countDowner) => {
   return obj;
 };
 
-const controllTimerTipe = (obj, buttonName, countDowner) => {
+const controllTimerType = (obj, buttonName, countDowner) => {
   if (TIMERS[buttonName]) {
     if (obj.timerId !== 0) {
       clearInterval(obj.timerId);
