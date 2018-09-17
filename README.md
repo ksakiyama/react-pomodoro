@@ -1,4 +1,4 @@
-# React Example - Pomodoro Timer🍅⏱
+# React Example - Pomodoro Timer🍅⏱ [![Build Status](https://travis-ci.org/ksakiyama/react-pomodoro.svg?branch=master)](https://travis-ci.org/ksakiyama/react-pomodoro)
 
 It is a simple timer for [Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique).
 
