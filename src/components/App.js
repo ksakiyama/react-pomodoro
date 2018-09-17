@@ -2,10 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import Button from "./Button";
 import RadioButton from "./RadioButton";
-import "./App.css";
+import "./../styles/App.css";
 
 const TIMERS = {
-  //Work: 3, // DEBUG: correctly 25 * 60
+  // Work: 3, // DEBUG: correctly 25 * 60
   Work: 25 * 60,
   Short: 5 * 60,
   Long: 15 * 60
@@ -45,9 +45,9 @@ class App extends React.Component {
       clearInterval(this.state.timerId);
       // TODO, I need free license mp3
       //new Audio('resources/sound.mp3').play();
-      if (Notification.permission === "granted") {
-        new Notification("Timer Finished!");
-      }
+
+      this.notificate();
+
       this.setState({
         remainingTime: 0,
         timerId: 0
@@ -91,6 +91,10 @@ class App extends React.Component {
   }
 
   componentDidMount() {
+    this.initNotification();
+  }
+
+  initNotification() {
     if ("Notification" in window) {
       const permission = Notification.permission;
       if (permission === "denied" || permission === "granted") {
@@ -98,7 +102,13 @@ class App extends React.Component {
       }
     }
     Notification.requestPermission();
-  }
+  };
+
+  notificate() {
+    if (Notification.permission === "granted") {
+      new Notification("Timer Finished!");
+    }
+  };
 }
 
 App.propTypes = {
